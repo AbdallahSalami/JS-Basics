@@ -2,9 +2,9 @@
   
 
 document.getElementById("validate").addEventListener("click", function() {
-  const nameInput = document.getElementById("name").value ;
-  const surInput = document.getElementById("surname").value ;
-  const cityInput = document.getElementById("city").value ;
+  var nameInput = document.getElementById("name").value ;
+  var surInput = document.getElementById("surname").value ;
+  var cityInput = document.getElementById("city").value ;
 
     alert(  "Name: "  +nameInput+ "\nSurname: " + surInput +"\nCity: " +cityInput);
 
